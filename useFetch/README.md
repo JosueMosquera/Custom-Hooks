@@ -1,6 +1,9 @@
-# use Counter Hook
+# use Fetch Hook
+
 ejemplo de uso
+
 ```
- const{counter,increment,decrement,reset} = useCounter(10);
+ const{data,loading,error} = useFetch(url);
 ```
-UseCounter //recibe un valor y el initialstate es 10
+
+UseFetch//recibe un url y hace una peticion fetch para obtener datos
